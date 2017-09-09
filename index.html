@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+      <link rel="stylesheet" href="main.css">
+      <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+
+      <div class="col-md-6">
+        <h2 class="text-center title">Socket Chat</h2>
+      <div class="input-group">
+        <span class="input-group-btn">
+          <button id="team" class="btn btn-dark" type="button">Teamchat</button>
+        </span>
+        <input type="text" id="chatbox" class="form-control" placeholder="Comment..." aria-label="Product name">
+        <span class="input-group-btn">
+          <button id="all" class="btn btn-dark" type="button">Allchat</button>
+        </span>
+      </div>
+      <ul id="chat-messages"></ul>
+      </div>
+
+    
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- <script type="text/javascript", src="https://cdn.socket.io/socket.io-1.1.0.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+        <script src="/main.js" type="text/javascript"></script>
+    </body>
+</html>

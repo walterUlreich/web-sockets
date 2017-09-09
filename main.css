@@ -1,0 +1,40 @@
+body {
+  padding: 20px;
+  background-color: #eee;
+}
+
+.title {
+  font-family: 'Ubuntu', sans-serif;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.message {
+  list-style-type: none;
+  border: 1px solid black;
+  width: 400px;
+  padding: 16px;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 2px black;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  background-color: #2ecc36;
+  color: #fff;
+  position: relative;
+  left: 60px;
+}
+
+.icon {
+  font-size: 240%;
+  position: absolute;
+  color: #dd3ef2;
+}
